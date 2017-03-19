@@ -17,10 +17,10 @@ a {
 
 .logo {
   display: inline-block;
-  width: 75px;
-  height: 75px;
-  padding: 10px 10px;
-  min-width: 75px;
+  width: 50px;
+  height: 50px;
+  padding: 8px 20px;
+  min-width: 50px;
 }
 
 .logo img {
@@ -39,9 +39,9 @@ a {
 
 .header h1 {
   margin: 0;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 0px;
   color: #00662C;
-  font-size: 1.5em;
+  font-size: 1.7em;
 }
 
 .nav {
@@ -51,7 +51,7 @@ a {
 
 .nav ul {
   padding-left: 0;
-  width: 80%;
+  width: 75%;
   margin-top: 4px;
   margin-bottom: 4px;
 }
@@ -59,17 +59,13 @@ a {
 .nav li {
   list-style: none;
   color: #00662C;
-  padding: 10px 10px 10px 10px;
+  padding: 8px;
   text-align: center;
   margin: 8px;
   border: 3px solid #B1BB1C;
   border-radius: 10px;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: bold;
-}
-
-.nav a {
-
 }
 
 .container {
