@@ -44,19 +44,45 @@ a {
   font-size: 1.7em;
 }
 
-.nav {
-  display: flex;
-  justify-content: center;
+#nav-toggle {
+  padding-left: 10%;
 }
 
-.nav ul {
+#nav {
+  display: flex;
+  justify-content: center;
+  max-height: 0;
+  overflow: hidden;
+}
+
+#nav.open {
+  animation: navSlideOpen 1s;
+  max-height: 500px
+}
+
+#nav.closed {
+  animation: navSlideClose 1s;
+  max-height: 0;
+}
+
+@keyframes navSlideOpen {
+  from {max-height: 0;}
+  to {max-height: 500px;}
+}
+
+@keyframes navSlideClose {
+  from {max-height: 500px;}
+  to {max-height: 0;}
+}
+
+#nav ul {
   padding-left: 0;
   width: 75%;
   margin-top: 4px;
   margin-bottom: 4px;
 }
 
-.nav li {
+#nav li {
   list-style: none;
   color: #00662C;
   padding: 8px;
