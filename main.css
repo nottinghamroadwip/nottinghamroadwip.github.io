@@ -6,20 +6,24 @@ body {
   font-family: 'Ovo', serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
 .header {
   background-color: #B1BB1C;
   display: flex;
-}
-
-a {
-  text-decoration: none;
 }
 
 .logo {
   display: inline-block;
   width: 50px;
   height: 50px;
-  padding: 8px 20px;
+  padding: 8px 15px;
   min-width: 50px;
 }
 
@@ -34,18 +38,22 @@ a {
 .header-text {
   display: inline-block;
   align-self: center;
-  font-family: 'Muli', sans-serif;
 }
 
-.header h1 {
+.header-text h1 {
   margin: 0;
   padding: 10px 10px 10px 0px;
   color: #00662C;
-  font-size: 1.7em;
+  font-size: 1.6em;
+  font-family: 'Muli', sans-serif;
 }
 
 #nav-toggle {
   padding-left: 10%;
+}
+
+#nav-toggle h2 {
+  font-family: 'Muli', sans-serif;
 }
 
 #nav {
