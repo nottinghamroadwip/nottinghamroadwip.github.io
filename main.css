@@ -11,7 +11,7 @@ a {
 }
 
 h2 {
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 .header {
@@ -21,10 +21,10 @@ h2 {
 
 .logo {
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   padding: 8px 15px;
-  min-width: 50px;
+  min-width: 40px;
 }
 
 .logo img {
@@ -44,12 +44,12 @@ h2 {
   margin: 0;
   padding: 10px 10px 10px 0px;
   color: #00662C;
-  font-size: 1.6em;
+  font-size: 1.4em;
   font-family: 'Muli', sans-serif;
 }
 
 #nav-toggle {
-  padding-right: 10%;
+  padding-right: 15%;
   text-align: right;
   position: relative;
 }
@@ -127,7 +127,7 @@ h2 {
   padding: 8px;
   text-align: center;
   margin: 8px;
-  border: 3px solid #B1BB1C;
+  border: 2px solid #B1BB1C;
   border-radius: 10px;
   font-size: 1.1em;
   font-weight: bold;
