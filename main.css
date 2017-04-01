@@ -49,11 +49,32 @@ h2 {
 }
 
 #nav-toggle {
-  padding-left: 10%;
+  padding-right: 10%;
+  text-align: right;
+  position: relative;
 }
 
 #nav-toggle h2 {
   font-family: 'Muli', sans-serif;
+  display: inline-block;
+}
+
+#nav-chevron {
+  display: inline-block;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  margin-top: -12px;
+}
+
+#nav-chevron.point-up {
+  transform: rotate(180deg);
+  animation: navChevronUp 1s;
+}
+
+#nav-chevron.point-down {
+  transform: rotate(  0deg);
+  animation: navChevronDown 1s;
 }
 
 #nav {
@@ -81,6 +102,16 @@ h2 {
 @keyframes navSlideClose {
   from {max-height: 500px;}
   to {max-height: 0;}
+}
+
+@keyframes navChevronUp {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(180deg);}
+}
+
+@keyframes navChevronDown {
+  from {transform: rotate(180deg);}
+  to {transform: rotate(0deg);}
 }
 
 #nav ul {
