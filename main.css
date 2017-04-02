@@ -11,7 +11,7 @@ a {
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .header {
@@ -21,13 +21,14 @@ h2 {
 
 .title {
   display: flex;
+  align-items: center;
 }
 
 .logo {
   display: inline-block;
   width: 40px;
   height: 40px;
-  padding: 8px 15px;
+  padding: 8px 8px;
   min-width: 40px;
 }
 
@@ -35,27 +36,30 @@ h2 {
   border-radius: 100%;
   width: 100%;
   height: 100%;
-  border: 3px solid #00662C;
+  border: 2px solid #00662C;
   box-sizing: border-box;
 }
 
 .header-text {
   display: inline-block;
-  align-self: center;
 }
 
 .header-text h1 {
   margin: 0;
   padding: 10px 10px 10px 0px;
   color: #00662C;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-family: 'Muli', sans-serif;
 }
 
 #nav-toggle {
   position: relative;
   margin-left: auto;
-  padding-right: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 #nav-toggle h2 {
@@ -66,9 +70,6 @@ h2 {
 #nav-chevron {
   display: inline-block;
   height: 24px;
-  position: absolute;
-  top: 50%;
-  margin-top: -12px;
 }
 
 #nav-chevron.point-up {
