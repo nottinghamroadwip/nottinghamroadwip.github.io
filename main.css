@@ -14,6 +14,10 @@ h2 {
   font-size: 1.1em;
 }
 
+.material-icons.darkgreen {
+  color: #00662C;
+}
+
 .header {
   background-color: #B1BB1C;
   display: flex;
@@ -65,6 +69,7 @@ h2 {
   font-family: 'Muli', sans-serif;
   display: inline-block;
   font-size: 0.9em;
+  color: #00662C;
 }
 
 #nav-chevron {
@@ -121,20 +126,20 @@ h2 {
 
 #nav ul {
   padding-left: 0;
-  width: 75%;
-  margin-top: 4px;
-  margin-bottom: 4px;
+  width: 70%;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 #nav li {
   list-style: none;
   color: #00662C;
-  padding: 8px;
+  padding: 4px;
   text-align: center;
   margin: 8px;
   border: 2px solid #B1BB1C;
-  border-radius: 10px;
-  font-size: 1.1em;
+  border-radius: 8px;
+  font-size: 1.0em;
   font-weight: bold;
 }
 
