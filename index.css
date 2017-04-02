@@ -1,4 +1,8 @@
 .tile-container {
+  width: 100%;
+}
+
+.tile-row-container {
   display: flex;
   flex: 1;
   margin: 10px;
@@ -7,7 +11,7 @@
 .tile {
   background-color: #B1BB1C;
   width: 400px;
-  margin: 2px 8px;
+  margin: 0px 5px;
   border-radius: 5px;
 }
 
